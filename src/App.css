@@ -1,0 +1,77 @@
+#root{
+  width: 90%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.mainContainer{
+  display:flex;
+  border: 1px solid black;
+  padding: 20px;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.timeContainer{
+  font-size: 4rem;
+}
+
+.msContainer {
+  display: flex;
+  align-items: flex-end;
+  height: auto;
+  padding-bottom: 10px;
+  font-size: 2rem;
+
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.buttonContainer button {
+  margin-right: 20px;
+  margin-top: 10px;
+  width: auto;
+  padding: 10px 5%;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 2px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.record-table {
+  width: 100%;
+  height: fit-content;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  max-height: 200px;
+}
+
+.record {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  padding-top: 15px;
+}
